@@ -80,17 +80,29 @@ body{
     margin: 90px 0px 0px 590px;
 }
 
-.section1{
+.section1dsn{
+    color: #191919;
+    font-size: 48.68vh;
+    font-family: "kanit";
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1div{
+    position: absolute;
     display: flex;
     flex-direction: row;
+    margin-top: -210px;
 }
 
 .leftsection1{
     flex: 1;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 40px;
     font-family: "kanit";
-    margin: 200px 0px 0px 100px;
+    margin: -30px 0px 0px 100px;
+    padding: 0px;
 }
 
 .rightsection1{
@@ -98,7 +110,8 @@ body{
     color: aliceblue;
     font-size: 20px;
     font-family: "kanit";
-    margin: 200px 0px 0px 0px;
+    margin: 0px 100px 0px 0px;
+    text-align: justify;
 }
 
 .designline2{
@@ -106,4 +119,30 @@ body{
     width: 213px;
     background-color: aliceblue;
     margin: 300px 0px 0px -100px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+}
+
+.section2txt{
+    flex: 1;
+    font-family: "kanit";
+    color: aliceblue;
+    font-size: 110px;
+    transform: rotateZ(270deg);
+    background-color: aqua;
+    margin: 0px 0px 0px 70px;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+.projecttbl{
+    flex: 4;
+    height: 670px;
+    width: 20px;
+    background-color: yellowgreen;
+    color: aliceblue;
 }
