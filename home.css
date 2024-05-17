@@ -32,12 +32,13 @@ body{
     font-size: 17px;
     font-family: "montserrat";
     text-decoration: none;
-    margin: 45px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .navlink{
     text-decoration: none;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .herosec{
@@ -56,9 +57,10 @@ body{
 }
 
 .herotxt{
-    color: aliceblue;
+    color: #D1D1D1;
     font-size: 65px;
     font-family: "kanit";
+    font-weight: 400;
     line-height: 60px;
     margin-right: 70px;
 }
@@ -68,21 +70,22 @@ body{
     background-color: #161616;
     border-style: solid;
     border-color: aliceblue;
-    padding: 18px 30px 18px 30px;
+    padding: 15px 28px 15px 28px;
     border-width: 1px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .designline1{
     height: 18px;
     width: 213px;
-    background-color: aliceblue;
+    background-color: #D9D9D9;
     margin: 90px 0px 0px 590px;
 }
 
 .section1dsn{
     color: #191919;
-    font-size: 48.68vh;
+    font-size: 22.885vw;
     font-family: "kanit";
     position: relative;
     margin: 0px;
@@ -98,7 +101,8 @@ body{
 
 .leftsection1{
     flex: 1;
-    color: aliceblue;
+    color: #D1D1D1;
+    font-weight: 450;
     font-size: 40px;
     font-family: "kanit";
     margin: -30px 0px 0px 100px;
@@ -107,7 +111,7 @@ body{
 
 .rightsection1{
     flex: 1.5;
-    color: aliceblue;
+    color: #D1D1D1;
     font-size: 20px;
     font-family: "kanit";
     margin: 0px 100px 0px 0px;
@@ -117,7 +121,7 @@ body{
 .designline2{
     height: 18px;
     width: 213px;
-    background-color: aliceblue;
+    background-color: #D9D9D9;
     margin: 300px 0px 0px -100px;
 }
 
@@ -127,22 +131,205 @@ body{
     margin-top: 300px;
 }
 
-.section2txt{
+.section2left{
     flex: 1;
+    height: 700px;
+    width: 100px;
+}
+
+.section2txt{
     font-family: "kanit";
-    color: aliceblue;
-    font-size: 110px;
+    font-weight: 600;
+    color: #949494;
+    font-size: 130px;
+    letter-spacing: 10px;
     transform: rotateZ(270deg);
-    background-color: aqua;
-    margin: 0px 0px 0px 70px;
+    margin: 700px 0px 0px -20px;
     padding: 0px;
     white-space: nowrap;
 }
 
 .projecttbl{
-    flex: 4;
-    height: 670px;
-    width: 20px;
-    background-color: yellowgreen;
+    flex: 4; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-left: 50px;
+    z-index: 10;
+    margin: 0px 0px 0px 0px;
+}
+
+.projectbg{
+    height: 510px;
+    width: 470px;    
+    border: solid 1px aliceblue;
+    margin: -50px 70px 0px 0px;
+    position: relative;
+}
+
+.projectbg1{
+    height: 510px;
+    width: 470px;    
+    border: solid 1px aliceblue;
+    margin: 70px 70px 0px 0px;
+    position: relative;
+}
+
+.projimg{
+    width: 450px;
+    height: 250px;
+    padding: 10px;
+}
+
+.projdsn{
+    height: 3px;
+    width: 35px;
+    margin: 10px 0px 0px 22px;
+    background-color: #D1D1D1;
+}
+
+.projdate{
+    font-size: 15px;
+    font-family: "Kanit";
+    font-weight: bold;
+    margin: 5px 0px 0px 22px;
+    color: #D1D1D1;
+}
+
+.projtitle{
+    font-family: "kanit";
+    font-size: 30px;
+    font-weight: 400;
+    margin: 5px 20px 0px 20px;
+    color: #A9A9A9;
+}
+
+.projbtn{
     color: aliceblue;
+    background-color: #161616;
+    border-style: solid;
+    border-color: aliceblue;
+    margin: 20px 0px 0px 20px;
+    padding: 13px 20px 15px 20px;
+    border-width: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.projexpbtn{
+    color: aliceblue;
+    background-color: #161616;
+    border-style: solid;
+    border-color: aliceblue;
+    margin: 100px 0px 0px 49vw;
+    padding: 13px 20px 15px 20px;
+    border-width: 1px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section3{
+    margin-top: 90px;
+}
+
+.designline3{
+    height: 18px;
+    width: 213px;
+    background-color: aliceblue;
+    margin-left: 84.2vw;
+}
+
+.section3title{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: "kanit";
+    font-weight: 600;
+    margin: 100px 0px 100px 100px;
+}
+
+.secion3cont{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+.section3skill{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.section3exp{
+    flex: 1;
+}
+
+.tmlline{
+    background-color: aliceblue;
+    width: 1px;
+    height: 500px;
+    margin: 0px 0px 0px 150px;
+    position: relative;
+}
+
+.tmldot{
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin: 20px 0px 0px 140px;
+}
+
+.sectionproglang{
+    margin: 0px 0px 0px 40px;
+    font-size: 25px;
+    font-family: "kanit";
+    color: aliceblue;
+}
+
+.section4{
+    margin: 500px 0px 0px 150px;
+}
+
+.section4txt{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: "kanit";
+    font-weight: 500;
+}
+
+.section4dsnline{
+    height: 1px;
+    width: calc(100vw - 215px);
+    background-color: aliceblue;
+    margin: 50px 0px 20px 100px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 150px 70px 150px;
+    justify-content: space-between;
+}
+
+.footerleft{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "kanit";
+}
+
+.footerright{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "kanit"; 
+}
+
+.footerbutton{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 40px;
+    text-align: right;
 }
