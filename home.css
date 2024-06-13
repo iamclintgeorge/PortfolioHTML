@@ -3,10 +3,14 @@ body{
     margin: 0px;
 }
 
+.dark-mode{
+    background-color: #D9D9D9;
+    color: red;
+}
+
 .navbardiv{
     display: flex;
     flex-direction: row;
-    color: aliceblue;
     justify-content: space-between;
 }
 
@@ -16,13 +20,12 @@ body{
 
 .leftnavtext{
     font-size: 30px;
-    /* background-color: aqua; */
+    color: aliceblue;
     margin: 40px 0px 0px 200px;
 }
 
 .rightnav{
     flex: 1;
-    /* background-color: bisque; */
 }
 
 .navmenubutton{
